@@ -1,0 +1,22 @@
+:root{
+    --black: #151515;
+    --dark-grey: #242424;
+    --green: #4EE1A0;
+    --grey: #d9d9d9;
+    --white: #ffffff;
+    --red: #ff6f5b;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    font-family: "Space Grotesk", sans-serif;
+}
