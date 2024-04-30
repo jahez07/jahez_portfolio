@@ -35,7 +35,13 @@ body{
 }
 
 .wrapper{
-    width: 100%;
+    width: calc(100% - 2rem);
     max-width: var(--container);
+    margin-inline: auto;
+}
 
+@media (min-width: 37.5em){ /* 600px */
+    .wrapper{
+        width: calc(100% - 3.75rem);
+    }
 }
