@@ -41,7 +41,10 @@ a:hover{
     color: var(--accent);
 }
 
-svg:hover path{
+.header__social{
+    display: inline-block;
+}
+.header__social:hover > svg > path{
     fill: var(--accent);
 }
 
